@@ -1,0 +1,26 @@
+---> Create service principal 
+
+ARM_CLIENT_ID
+ARM_CLIENT_SECRET
+ARM_SUBSCRIPTION_ID
+ARM_TENANT_ID
+
+ACTIVE DIRECTORY > App Registrations > Certificates & secrets > Create client secret
+
+Subscription > Access Control > Add role assignment > Contributor > Choose the Service principal
+
+---> Create New project
+  ---> Create Service connections 
+     --> Docker hub
+     --> Azure resource manager 
+     --> Github repo
+  ---> Create Variable group 
+     --> ARM_CLIENT_ID
+         ARM_CLIENT_SECRET
+         ARM_SUBSCRIPTION_ID
+         ARM_TENANT_ID
+
+---> Create storage account 
+   Create resource group > Storage Account > Containers 
+
+
